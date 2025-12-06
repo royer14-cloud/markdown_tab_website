@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Tab</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #007BFF; color: white; padding: 20px; text-align: center; }
+        .container { width: 80%; margin: auto; padding: 20px; }
+        .features { display: flex; flex-wrap: wrap; justify-content: space-between; }
+        .feature { flex: 1 1 300px; background: white; margin: 15px; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .cta { text-align: center; margin: 30px 0; }
+        .cta button { background: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>Markdown Tab</b></h1>
+        <p>La mejor herramienta para crear y editar tus cancioneros en Windows</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Características</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Interfaz intuitiva</h3>
+                    <img src="img/interfaz.png" alt="Interfaz intuitiva" style="width:100%; height:auto; border-radius:8px;">
+                    <p>Diseño fácil de usar, pensado para todos los usuarios.</p>
+                </div>
+                <div class="feature">
+                    <h3>Resaltado de sintaxis</h3>
+                    <img src="img/resaltado.png" alt="Resaltado de sintaxis" style="width:100%; height:auto; border-radius:8px;">
+                    <p>Destaca en su resaltado de comandos.</p>
+                    <pre>
+:::chord{}  ```tab        /newpage
+```chord    ## Subtitulo  
+/repeat{texto}{posicion}
+                    </pre>
+                </div>
+                <div class="feature">
+                    <h3>Personalización</h3>
+                    <img src="img/tema.png" alt="Personalización" style="width:100%; height:auto; border-radius:8px;">
+                    <p>Tema claro cálido y oscuro pensando en la protección de la vista para largas sesiones.</p>
+                </div>
+                <div class="feature">
+                    <h3>Edición avanzada</h3>
+                    <center>
+                    <img src="img/configurar.png" alt="configurar" style="width:60%; height:auto; border-radius:8px;"></center>
+                    <p>Busca configurar las dimensiones del documento, multicolumna, tamaño de letra y del acorde.</p>
+                </div>
+                <div class="feature">
+                    <h3>Visualización y exportación</h3>
+                    <center><img src="img/previa.png" alt="vista previa" style="width:60%; height:auto; border-radius:8px;"></center>
+                    <p>Permite la visualización del proyecto, desde el teclado presionar <b>+</b> y <b>-</b> para hacer zoom,dentro de la ventana puedes exportar a <b>PDF</b></p>
+                </div>
+                <div class="feature">
+                    <h3>Soporte multiplataforma</h3>
+                    <p>Disponible para Windows, se está trabajando para tenerlo en otros sistemas operativos.</p>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <h2>¡Descarga ahora!</h2>
+            <button onclick="window.location.href='https://tusitio.com'">Descargar <b>Markdown Tab</b></button>
+        </section>
+        <section>
+            <h2>Testimonios</h2>
+            <p>"Un perfecto editor para escribir cancioneros, potente y con todo lo que necesito." – Usuario satisfecho</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Markdown Tab. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
