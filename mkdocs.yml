@@ -4,4 +4,5 @@ theme:
 nav:
   - Home: index.md
   - Modo de uso: guide.md
+  - Interfaz: interfaz.md
   - Acerca de: about.md
