@@ -33,6 +33,7 @@ Solo estas
 </pre></code>
 
 **Explicación de la estructura**
+
  - Metadatos (---title, autor, BPM---): Estos campos permiten definir información básica de la canción, como título, autor y tempo.
  - Acordes visuales (:::drawchord Am:::): Permite insertar acordes directamente en el texto para facilitar la lectura musical.
  - Acordes no visuales (`chord{Am}{pos}`): Permite insertar acordes en texto dentro de una caja aleatoria de colores, {pos} es la posicion horizontal en numero donde se escribirá. 
