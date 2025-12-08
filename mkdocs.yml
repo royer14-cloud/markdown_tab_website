@@ -1,0 +1,6 @@
+site_name: Markdown Tab
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+  - Acerca de: about.md
