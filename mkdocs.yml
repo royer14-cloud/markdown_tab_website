@@ -3,4 +3,5 @@ theme:
   name: mkdocs
 nav:
   - Home: index.md
+  - Modo de uso: guide.md
   - Acerca de: about.md
