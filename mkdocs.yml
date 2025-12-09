@@ -1,6 +1,6 @@
 site_name: Markdown Tab
 theme:
-  name: material
+  name: readthedocs
 nav:
   - Home: index.md
   - Modo de uso: guide.md
